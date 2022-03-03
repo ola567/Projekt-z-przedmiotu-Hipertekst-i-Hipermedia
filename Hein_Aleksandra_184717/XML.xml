@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE culinaryart SYSTEM "DTD.dtd">
+
+<culinaryart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="XSD.xsd">
+
+  <project informations="aboutAuthorAndProject">
+    <date>2020-11-29</date>
+    <Name>Aleksandra</Name>
+    <Surname>Hein</Surname>
+    <age>19</age>
+    <tel>123 456 789</tel>
+    <country>Polska</country>
+  </project>
+
+  <introduction>
+    <entry>
+        Kilka słów na początek...
+        Gotowanie od zawsze było moją pasją. Lubiłam ( i oczywiście nadal lubię :) ) smakować nowe potrawy, próbować nowych przepisów, a nawet wymyślać swoje, autorskie dania. Tworzenie nowych potraw sprawia mi niezwykłą frajdę, co niewątpiliwe przynosi korzyści również moim znajomym i rodzinie, którzy zawsze się załapią na jakiś obiadek i ciastko. Chciałabym na tej stornie internetowej pokazać kilka swoich przepisów, które mam nadzieję trafią w Wasze gusta. Przygotowałam również quiz dotyczący różnych produktów. Serdecznie zapraszam do miłej lektury.
+        <media>
+          <img source="img/logo.svg">logo</img>
+        </media>
+    </entry>
+    <article>
+      <description>
+        A oto przed wami 2 ciekawostki dotyczących odżywiania (tak dla rozbudzenia ciekawości :) ). To niewiele, ale zawsze po więcej informacji można sięgnąć do dietetycy.org.pl, elle.pl, dietatopodstawa.pl, czy też i innych stron internetowych.
+        <links>
+          <link source="https://dietetycy.org.pl/20-faktow-mitow-zywieniowych/">dietetycy.org.pl</link>
+          <link source="https://www.elle.pl/sport/artykul/fakty-i-mity-na-talerzu-zielona-herbata-odchudza-a-wegetarianizm-prowadzi-do-niedoboru-zelaza">elle.pl</link>
+          <link source="https://dietatopodstawa.pl/porady/ciekawostki">dietatopodstawa.pl</link>
+        </links> 
+      </description>
+      <content>
+        <oddity>
+          <title>Jedzenie posiłków z proszku zamiast normalnych dań to skuteczny sposób odchudzania.</title>
+          <inside>Fakt, można w ten sposób szybko stracić kilka, a nawet kilkanaście kilogramów, lecz organizm po zakończeniu odchudzania przystąpi do odbudowy zapasów. Efekt jo-jo zapewniony. Długie stosowanie diety proszkowej prowadzi do niedoboru witamin i minerałów, osłabienia organizmu i ciężkich depresji.
+            <media>
+              <img source="img/proszek.png">proszek</img>
+            </media>
+          </inside>
+        </oddity>
+        <oddity>
+          <title>Grillowane mięsa są rakotwórcze</title>
+          <inside>Nieprawda. Grillowanie jest jednym z najlepszych sposobów przyrządzania mięsa. Jeśli wybierzemy niezbyt tłuste gatunki, np. polędwicę wołową lub cielęcą, rostbef, łopatkę, udziec cielęcy, karkówkę czy szynkę, i będziemy piekli je bez tłuszczu, z dużą ilością przypraw, danie będzie nie tylko smaczne, ale i dietetyczne. Zioła ułatwiają trawienie i mogą zastąpić sól, której nadmiar jest dla organizmu szkodliwy. Mięso z grilla bywa niebezpieczne jedynie wtedy, gdy tłuszcz wytapiający się z niego kapie bezpośrednio na rozgrzany ruszt. Wtedy właśnie powstają rakotwórcze substancje gazowe, tzw. dioksany. Możemy tego uniknąć, umieszczając mięso na aluminiowej tacce lub w folii. Podobnie powinniśmy postępować z grillowanymi warzywami.
+            <media>
+              <img source="img/grill.png">grill</img>
+            </media>
+          </inside>
+        </oddity>
+        <oddityextra id="najsłynniejszy_kucharz">
+          <NAME>Paul</NAME>
+          <SURNAME>Bocuse</SURNAME>
+          <HISTORY>
+            Pochodził z rodziny kucharzy. W wieku 16 lat rozpoczął praktykę w restauracji de la Soierie w Lyonie. W 1944, w wieku 18 lat, wstąpił na ochotnika do Armii Wolnych Francuzów i walczył w składzie 1 dywizji. Po zakończeniu wojny powrócił do Lyonu, gdzie uczył się pod kierunkiem Eugénie Braziera, a następnie w Paryżu u Gastona Richarda. Zaliczany jest do pionierów nowej kuchni francuskiej (nouvelle cuisine), bardziej dietetycznej niż tradycyjna kuchnia francuska (cuisine classique) z uwagi na wykorzystywanie wyłącznie świeżych produktów. W 1975 na obiedzie prezydenckim w Pałacu Elizejskim podano jedno z najsłynniejszych dań Bocuse'a – zupę z trufli (soupe aux truffes). Danie to stało się potem wizytówką restauracji Soupe V.G.E. w pobliżu Lyonu (inicjały V.G.E. odnosiły się do prezydenta Valéry’ego Giscarda d’Estaing). Za najbardziej znaną restauracją Bocuse'a uchodziła l'Auberge du Pont de Collonges w Collonges-au-Mont-d’Or, wyróżniona trzema gwiazdkami w przewodniku Michelina. Sieć restauracji tematycznych Bocuse'a, działająca w Lyonie, oferuje różne odmiany kuchni francuskiej. Instytut noszący imię francuskiego kuchmistrza organizuje czteromiesięczne szkolenia z zakresu regionalnej kuchni francuskiej i doboru win dla studentów z dziewięciu uniwersytetów, tworzących sieć Paul Bocuse Worldwide Alliance. W gronie uczniów Bocuse'a znajduje się kilku kuchmistrzów o międzynarodowej sławie, w tym Austriak Eckart Witzigmann, pierwszy kucharz z kraju niemieckojęzycznego, którego restauracja otrzymała trzy gwiazdki w przewodniku Michelina. Przyznawana od 1987 nagroda Złotego Bocuse'a (Bocuse d’Or) uchodzi za jedno z najbardziej prestiżowych wyróżnień dla szefów kuchni na świecie. The Culinary Institute of America w 2011 nagrodził Paula Bocuse'a tytułem Kuchmistrza Stulecia (Chef of the Century). W 1975 został komandorem Legii Honorowej. Syn Paula Bocuse'a, Jérôme, kieruje restauracją w pawilonie francuskim w amerykańskim Walt Disney World Resort w Orlando.
+          </HISTORY>
+        </oddityextra>
+        <table tytul="kaloryczność">
+          <product number="1">
+            Masło orzechowe
+            <kcal>589</kcal>
+          </product>
+          <product number="2">
+            Skwarki
+            <kcal>579</kcal>
+          </product>
+          <product number="3">
+            Big Mac
+            <kcal>550</kcal>
+          </product>
+          <product number="4">
+            Mocaccino
+            <kcal>461</kcal>
+          </product>
+          <product number="5">
+            Kokos
+            <kcal>370</kcal>
+          </product>
+        </table>
+      </content>
+    </article>
+  </introduction>
+
+  <recipes>
+    <recipe category="sniadanie">
+      <r>
+        <name>Granola z żurawiną</name>
+        <media>
+             <img source="img/granola.jpg">granola</img>
+        </media>
+        <ingredients>
+          <i>2 łyżki kakao</i>
+          <i>0,5 szklanki żurawuny</i>
+          <i>2 szklanki płatków owsianych</i>
+          <i>2 łyżki miodu</i>
+          <i>0,5 szklanki orzechów włoskich</i>
+        </ingredients>
+        <howtodo>
+          Nastaw piekarnik na 180 st. C. Blaszkę wyłóż papierem do pieczenia.
+          Orzechy i żurawinę posiekaj na drobne kawałki.
+          W rondelku podgrzej miód oraz kakao. Jak tylko miód się rozpuści i połączy z kakao, zdejmij rondel z ognia.
+          Do rondelka wsyp płatki owsiane oraz pokrojoną żurawinę i orzechy. Mieszaj do połączenia się wszystkich składników i wysyp na przygotowaną wcześniej blaszkę.
+          Piecz w piekarniku przez ok. 20 min. Ostudź i rozdrobnij.
+          Gotową granole przechowuj w szczelnie zamkniętym pojemniku. Idealna z mlekiem, jogurtem czy solo jako przekąska. &coos;
+        </howtodo>
+      </r>
+      <r>
+        <name>Roladki z tortilli</name>
+        <media>
+             <img source="img/roladki.jpg">tortilla</img>
+        </media>
+        <ingredients>
+          <i>1 puszka Kukurydzy złocistej z czerwoną fasolą Bonduelle 212 ml</i>
+          <i>150 g grillowanej papryki</i>
+          <i>120 g majonezu</i>
+          <i>100 g żółtego sera o intensywnym smaku</i>
+          <i>60 g pikantnego ketchupu</i>
+          <i>3 pszenne tortille</i>
+          <i>1 dymka</i>
+          <i>0,5 główki sałaty</i>
+          <i>0,5 łyżeczki oregano</i>
+          <i>sól i pieprz</i>
+        </ingredients>
+        <howtodo>
+          Paprykę kroimy w paski, dymkę w talarki. Oddzielamy liście sałaty. Majonez mieszamy z ketchupem. Doprawiamy oregano, solą i pieprzem, jeśli to konieczne.Ser ścieramy na tarce o grubych oczkach. Każdą tortillę smarujemy przygotowanym sosem i posypujemy tartym serem, osączoną z zalewy kukurydzą z fasolą, dymką oraz papryką. Układamy liście sałaty. Rolujemy ściśle tortille i kroimy je na kawałki ostrym nożem. &coos;
+        </howtodo>
+      </r>
+    </recipe>
+    <recipe category="zupy">
+      <r>
+        <name>Grzybowa z suszonych grzybów</name>
+        <media>
+             <img source="img/grzybowa.jpg">grzybowa</img>
+        </media>
+        <ingredients>
+          <i>70 g grzybów suszonych (borowików i/lub podgrzybków</i>
+          <i>1,5 litra bulionu (np. grzybowy, warzywny, mięsny)</i>
+          <i>1 łyżka oleju roślinnego</i>
+          <i>1 cebula</i>
+          <i>1 marchewka</i>
+          <i>2 ziemniaki</i>
+          <i>zioła: po 1 łyżeczce tymianku, cząbru i majeranku</i>
+          <i>pęczek natki pietruszki</i>
+          <i>250 ml śmietanki 30%</i>
+          <i>do podania: grzaneczki z chleba</i>
+        </ingredients>
+        <howtodo>
+          Suszone grzyby opłukać pod bieżącą chłodną wodą, włożyć do miski, zalać bulionem i odstawić na noc do namoczenia.
+          Do większego garnka wlać oliwę i zeszklić pokrojoną w kosteczkę cebulę.
+          Następnie dodać obraną i startą na tarce marchewkę i podsmażać przez ok. 2 minuty.
+          Dodać obrane i pokrojone w kostkę ziemniaki oraz zioła. Mieszając co chwilę podsmażać przez minutę.
+          Wlać namoczone grzyby wraz z bulionem. Zagotować na dużym ogniu. Doprawić solą i pieprzem (ok. pół łyżeczki).
+          Po zagotowaniu zmniejszyć ogień i gotować pod przykryciem przez ok. 20 minut (do miękkości składników).
+          Odstawić z ognia i zmiksować z dodatkiem oderwanych listków natki pietruszki oraz śmietanki.
+          Zupę można zawekować (wlać gorącą do słoików) i po ostudzeniu przechować przez kilka dni w lodówce. Lub też od razu podawać z grzankami (chleb pokroić w małą kosteczkę, rozłożyć na blaszce i suszyć w piekarniku nagrzanym do 160 stopni C, aż będzie chrupiący).  &coos;
+        </howtodo>
+      </r>
+      <r>
+        <name>Zupa porowa</name>
+        <media>
+             <img source="img/por.jpg">por</img>
+        </media>
+        <ingredients>
+          <i>3 duże pory - po "obraniu" do 600 g</i>
+          <i>mały kawałek selera korzeniowego - do 100 g</i>
+          <i>1 mała marchewka - do 100 g</i>
+          <i>1 korzeń pietruszki - 200 g</i>
+          <i>3 średnie ziemniaki - 350 g</i>
+          <i>5 ząbków czosnku</i>
+          <i>2 łyżki delikatnej oliwy</i>
+          <i>2 łyżki masła klarowanego</i>
+          <i>3 szklanki bulionu lub wody - 750 ml</i>
+          <i>1/3 szklanki mleka</i>
+          <i>3 łyżki soku z cytryny</i>
+          <i>przyprawy: 2 płaskie łyżeczki soli, 1 płaska łyżeczka cukru, pół płaskiej łyżeczki pieprzu, szczypta gałki muszkatołowej</i>
+        </ingredients>
+        <howtodo>
+          Odetnij koniec z korzeniem oraz część z rozwidlającymi się liśćmi a następnie zdejmij tez pierwszą, ciemną warstwę. Umyj dokładnie gotowe do krojenia pory i osusz. Każdego pora pokrój w cienkie krążki. Krem z porów przygotuj w jednym garnku, więc i pory podsmaż w garnku na maśle i oliwie.
+          W garnku, w którym będziesz gotować zupę roztop dwie łyżki masła, najlepiej klarowanego. Wlej też dwie łyżki delikatnej oliwy z oliwek (może być również olej z pestek winogron lub olej ryżowy). Do garnka dodaj pory i podsmażaj je około siedem minut na średniej mocy palnika. Garnka nie przykrywam przykrywką a pory mieszam przy pomocy drewnianej łyżki. Po siedmiu minutach dodaj też obrane i pokrojone w plasterki ząbki czosnku. Całość zamieszaj i podsmażaj jeszcze trzy minuty. W trakcie podsmażania pora lub też wcześniej, przygotuj sobie pozostałe warzywa. Ziemniaki, marchew, selera i pietruszkę umyj i obierz a następnie pokrój w kostkę. Do garnka z porem i czosnkiem wlej kolejno trzy szklanki wody lub też domowego bulionu warzywnego (w wersji dla osób, które jadają mięso, polecam bulion drobiowy lub trzy szklanki odlane z rosołu). Dodaj też pokrojone w kostkę warzywa. Garnek przykryj przykrywką. Doprowadź zupę do wrzenia a następnie zmniejsz moc palnika do takiej, by zupa lekko mrugała. Gotuj ją przez 20 minut. Po tym czasie warzywa powinny być już miękkie. Do zupy dodaj przyprawy: dwie płaskie łyżeczki soli; jedną płaską łyżeczkę cukru; pół płaskiej łyżeczki pieprzu oraz sporą szczypta gałki muszkatołowej. Wlej też trzy łyżki świeżo wyciśniętego soku z cytryny. Całość zamieszaj i wyłącz. Gotową zupę zmiksuj na gładko. Polecam użyć do tego blendera ręcznego typu żyrafa. Po zmiksowaniu wlej też 1/3 szklanki mleka. Mleko wlewaj powoli do zupy, którą cały czas mieszasz w garnku. Zupę mieszasz po to, by nie zwarzyć mleka. Smacznego!
+        </howtodo>
+      </r>
+    </recipe>
+    <recipe category="makarony">
+      <r>
+        <name>Makaron ze smażonymi pomidorami</name>
+        <media>
+             <img source="img/makaron.jpg">makaron</img>
+        </media>
+        <ingredients>
+          <i>500 g makaronu linguine, spaghetti lub innych wstążek, czy nitek</i>
+          <i>3 łyżki oliwy</i>
+          <i>400 g mięsistych pomidorów (pokrojonych) lub małych pomidorków cherry lub śliwkowych</i>
+          <i>3 ząbki czosnku pokrojonego na cienkie plasterki</i>
+          <i>3 łyżki świeżych liści bazylii posiekanych na paseczki</i>
+          <i>3 łyżki startego sera pecorino lub innego twardego sera dojrzewającego</i>
+        </ingredients>
+        <howtodo>
+          Ugotuj makaron zgodnie ze wskazówkami na opakowaniu w dużym garnku, aż będzie al dente; odcedź go, zachowując 1/3 szklanki wody z gotowania makaronu (nada kremową konsystencję potrawie) i odstaw. Podczas gotowania makaronu na dużej patelni z nieprzywierającą powłoką rozgrzej oliwę, dodaj czosnek i smaż przez 1-2 minuty. Następnie dodaj pomidory i bazylię, podgrzewaj 1-2 minuty. Dodaj do patelni ugotowany i odcedzony makaron oraz starty ser, zamieszaj, wlej wodę i ponownie zamieszaj. Rozłóż makaron na talerze i ewentualnie posyp dodatkowym tartym serem pecorino.  &coos;
+        </howtodo>
+      </r>
+      <r>
+        <name>Makaron z duszoną młodą kapustą, jabłkami i porem</name>
+        <media>
+             <img source="img/makaron1.jpg">makaron1</img>
+        </media>
+        <ingredients>
+          <i>2 pory</i>
+          <i>1/2 małej główki kapusty</i>
+          <i>2 duże jabłka</i>
+          <i>3 ząbki czosnku</i>
+          <i>2 łyżki oliwy z oliwek</i>
+          <i>2 łyżki octu jabłkowego</i>
+          <i>1 łyżka musztardy dijon</i>
+          <i>sól i pieprz</i>
+          <i>250 g makaronu</i>
+        </ingredients>
+        <howtodo>
+          Pory pokroić na półplasterki i zeszklić na rozgrzanej oliwie. Gdy zmiękną dodać przeciśnięty przez praskę czosnek oraz poszatkowaną kapustę. Smażyć często mieszając, aż kapusta się lekko zrumieni. Jabłka umyć i pokroić w kostkę. Dodać do kapusty i smażyć 2 minuty. Przyprawić solą i pieprzem, dodać ocet i musztardę i dusić ok 30 min. W tym czasie ugotować makaron wg przepisu na opakowaniu. Odcedzić, pozostawiając pół szklanki wody z gotowania. Dodać warzywa, wymieszać i podawać. &coos;
+        </howtodo>
+      </r>
+    </recipe>
+    <recipe category="miesne">
+      <r>
+        <name>Złocisty kurczak pieczony na płasko z ziemniakami</name>
+        <media>
+             <img source="img/kurczak.jpg">kurczak</img>
+        </media>
+        <ingredients>
+          <i>1 kurczak o wadze około 1,5 kg</i>
+          <i>1 kg ziemniaków</i>
+          <i>4 ząbki czosnku</i>
+          <i>2 łyżeczki tymianku</i>
+          <i>4 łyżki oliwy lub oleju</i>
+          <i>4 łyżki soku z cytryny</i>
+          <i>1/2 łyżeczki startej skórki cytryny</i>
+          <i>2 łyżeczki soli</i>
+          <i>1/2 łyżeczki czarnego pieprzu mielonego</i>
+        </ingredients>
+        <howtodo>
+          Czosnek przecisnąć przez praskę, dodać do niego tymianek, oliwę, sok z cytryny, skórkę cytryny oraz sól i pieprz, zmiksować. Kurczaka rozciąć wzdłuż mostka. Ułożyć tuszkę kurczaka piersią do dołu i nacisnąć obiema rękami na grzbiet tak, aby kurczak otworzył się i rozpłaszczył. Blachę wyłożyć papierem do pieczenia, ułożyć ziemniaki (umyte, obrane lub nie, przekrojone na pół). Ziemniaki skropić połową przygotowanej marynaty, wymieszać, rozłożyć równą warstwą. Kurczaka natrzeć marynatą z obu stron. Ułożyć na płasko na ziemniakach, skórką do góry. Wstawić do piekarnika rozgrzanego do 160°C i piec około 2 godzin. W trakcie pieczenia dwukrotnie polać kurczaka wytworzonym sosem.  Podawać z sałatką z surowych warzyw lub kiszonkami &coos;
+        </howtodo>
+      </r>
+    </recipe>
+    <recipe category="desery">
+      <r>
+        <name>Owsiane ciastka z jabłkami i orzechami</name>
+        <media>
+             <img source="img/owsiane.jpg">owsiane</img>
+        </media>
+        <ingredients>
+          <i>1/2 szklanki miękkiego masła, około 100g </i>
+          <i>3/4 szklanki brązowego cukru w opakowaniu</i>
+          <i>2 jajka</i>
+          <i>1 łyżeczka ekstraktu waniliowego</i>
+          <i>1 szklanka mąki pszennej</i>
+          <i>1 łyżeczka proszku do pieczenia</i>
+          <i>2 szklanki płatków owsianych</i>
+          <i>1 jabłko obrane, wydrążone i posiekane drobno lub starte</i>
+          <i>1 łyżeczka mielonego cynamonu</i>
+          <i>1/8 łyżeczki mielonej gałki muszkatołowej</i>
+          <i>1/2 łyżeczki soli</i>
+          <i>1/2 szklanki orzechów włoskich posiekanych grubo</i>
+        </ingredients>
+        <howtodo>
+          Rozgrzej piekarnik do 190°C. Lekko posmaruj blachę tłuszczem lub wyłóż papierem do pieczenia i odstaw na bok. Za pomocą miksera utrzyj masło i brązowy cukier do uzyskania lekkiej i puszystej masy. Dodaj jajka i wanilię. Zmiksuj. Dodaj mąkę i proszek do pieczenia oraz wszystkie przyprawy, ponownie zmiksuj. Dodaj płatki owsiane i starte jabłka oraz posiekane orzechy włoskie, wymieszaj drewnianą łyżką. Na blasze rozłóż po 1 łyżce ciasta w odstępach co 5 cm, bo ciastka rozrosną się. Piec przez 10 do 12 minut lub do zrumienienia. Wyjmij z piekarnika i przenieś ciasteczka na ruszt do chłodzenia. &coos;
+        </howtodo>
+      </r>
+    </recipe>
+  </recipes>
+  
+  <survey>
+    <heading>Ankieta</heading>
+    <description>
+      Przygotowałam krótką ankietę dotyczącą zdrowego odżywiania. Sprawdź, czy faktycznie dbasz o prawidłową dietę, a tym samym o swoje zdrowie i kondycję.</description>
+    <question>
+      Jakie posiłki wolisz spożywać?
+      <options>
+        <option>fast food</option>
+        <option>domowe</option>
+      </options>
+    </question>
+    <question>
+      Czy przy zakupie produktu zwracasz uwagę na jego kaloryczność?
+      <options>
+        <option>tak</option>
+        <option>nie</option>
+        <option>czasami</option>
+      </options>
+    </question>
+    <question>
+      Czy ograniczasz ilość spożywanego tłuszczu?
+      <options>
+      <option>tak</option>
+      <option>nie</option>
+      <option>czasami</option>
+    </options>
+    </question>
+    <question>
+      Wybierz 3 produkty, po które sięgnąłbyś automatycznie, mają je w domu:
+      <choices>
+        <choice>nutella</choice>
+        <choice>banan</choice>
+        <choice>kawałek pysznego ciasta</choice>
+        <choice>usmażony boczek</choice>
+        <choice>jogurt naturalny z otrębami</choice>
+      </choices>
+    </question>
+    <question>
+      Czy często pijesz kawę?
+      <options>
+        <option>wcale</option>
+        <option>raz dziennie</option>
+        <option>więcej</option>
+      </options>
+    </question>
+    <question>Ile posiłków dziennie spożywasz?</question>
+    <question>Czy codziennie jesz owoce/warzywa?</question>
+    <question>Jak ważna jest dla ciebie zdrowa i zbilanoswana dieta?</question>
+  </survey>
+  
+</culinaryart>

@@ -1,0 +1,77 @@
+﻿<!ELEMENT culinaryart (project, introduction, recipes, survey)>
+
+<!ENTITY % project "date, Name, Surname, age, tel, country">
+<!ENTITY % survey "heading, description, question+">
+<!ENTITY % content "oddity+, oddityextra, table">
+<!ENTITY coos "Smacznego!">
+
+<!ELEMENT project (%project;)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Surname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT introduction (entry, article)>
+<!ELEMENT entry (#PCDATA | media)*>
+<!ELEMENT media (img)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT article (description, content)>
+<!ELEMENT description (#PCDATA | links)*>
+<!ELEMENT links (link+)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT content (%content;)>
+<!ELEMENT oddity (title, inside)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT inside (#PCDATA | media)*>
+<!ELEMENT oddityextra (NAME, SURNAME, HISTORY)>
+<!ELEMENT NAME (#PCDATA)>
+<!ELEMENT SURNAME (#PCDATA)>
+<!ELEMENT HISTORY (#PCDATA)>
+<!ELEMENT table (product+)>
+<!ELEMENT product (#PCDATA | kcal)*>
+<!ELEMENT kcal (#PCDATA)>
+
+<!ELEMENT recipes (recipe+)>
+<!ELEMENT recipe (r+)>
+<!ELEMENT r (name, media, ingredients, howtodo)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ingredients (i+)>
+<!ELEMENT i (#PCDATA)>
+<!ELEMENT howtodo (#PCDATA)>
+
+<!ELEMENT survey (%survey;)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT question (#PCDATA | options | choices)*>
+<!ELEMENT options (option+)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT choices (choice+)>
+<!ELEMENT choice (#PCDATA)>
+
+<!ATTLIST link source CDATA "https://dietetycy.org.pl/20-faktow-mitow-zywieniowych/">
+<!ATTLIST link source CDATA "https://www.elle.pl/sport/artykul/fakty-i-mity-na-talerzu-zielona-herbata-odchudza-a-wegetarianizm-prowadzi-do-niedoboru-zelaza">
+<!ATTLIST link source CDATA "https://dietatopodstawa.pl/porady/ciekawostki">
+<!ATTLIST project informations CDATA "aboutAuthorAndProject">
+<!ATTLIST oddityextra  id CDATA "najsłynniejszy_kucharz">
+<!ATTLIST product number (1|2|3|4|5) "1">
+<!ATTLIST recipe category (sniadanie|zupy|makarony|miesne|desery) #REQUIRED>
+<!ATTLIST table tytul CDATA "kaloryczność">
+<!ATTLIST culinaryart xmlns:xsi CDATA "http://www.w3.org/2001/XMLSchema-instance">
+<!ATTLIST culinaryart  xsi:noNamespaceSchemaLocation CDATA "XSD.xsd">
+<!ATTLIST img source CDATA "img/logo.svg">
+<!ATTLIST img source CDATA "img/proszek.png">
+<!ATTLIST img source CDATA "img/grill.png">
+<!ATTLIST img source CDATA "img/granola.jpg">
+<!ATTLIST img source CDATA "img/roladki.jpg">
+<!ATTLIST img source CDATA "img/grzybowa.jpg">
+<!ATTLIST img source CDATA "img/por.jpg">
+<!ATTLIST img source CDATA "img/makaron1.jpg">
+<!ATTLIST img source CDATA "img/kurczak.jpg">
+<!ATTLIST img source CDATA "img/owsiane.jpg">
+<!ATTLIST img source CDATA "img/makaron.jpg">
+
+
+
+
+

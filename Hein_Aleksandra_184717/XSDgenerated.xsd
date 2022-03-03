@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="culinaryart">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="project">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" type="xs:date" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Surname" type="xs:string" />
+              <xs:element name="age" type="xs:unsignedByte" />
+              <xs:element name="tel" type="xs:string" />
+              <xs:element name="country" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="informations" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="introduction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="entry">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="media">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="img">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="source" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="article">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="description">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="links">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="link">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="source" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="content">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="oddity">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="title" type="xs:string" />
+                                <xs:element name="inside">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element name="media">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="img">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute name="source" type="xs:string" use="required" />
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="oddityextra">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="NAME" type="xs:string" />
+                                <xs:element name="SURNAME" type="xs:string" />
+                                <xs:element name="HISTORY" type="xs:string" />
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="table">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="product">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element name="kcal" type="xs:unsignedShort" />
+                                    </xs:sequence>
+                                    <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="tytul" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="recipes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="recipe">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="r">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="media">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="img">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="source" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ingredients">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="i1" type="xs:string" />
+                                <xs:element minOccurs="0" name="i2" type="xs:string" />
+                                <xs:element minOccurs="0" name="i3" type="xs:string" />
+                                <xs:element minOccurs="0" name="i4" type="xs:string" />
+                                <xs:element minOccurs="0" name="i5" type="xs:string" />
+                                <xs:element minOccurs="0" name="i6" type="xs:string" />
+                                <xs:element minOccurs="0" name="i7" type="xs:string" />
+                                <xs:element minOccurs="0" name="i8" type="xs:string" />
+                                <xs:element minOccurs="0" name="i9" type="xs:string" />
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="i" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="howtodo" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="category" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="survey">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="heading" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="question">
+                <xs:complexType mixed="true">
+                  <xs:sequence minOccurs="0">
+                    <xs:element minOccurs="0" name="choices">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="choice" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="options">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="option" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

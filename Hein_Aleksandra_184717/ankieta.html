@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Kulinaria</title>
+    <meta name="description" content="Odkryj nowy świat smaków, który stanie się rozkoszą dla twojego podniebienia" />
+    <meta name="keywords" content="śniadania, obiady, desery, ciasta, przepisy, kuchnia, smakołyki, przekąski" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="style1.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="logo">Kulinaria</h1>
+
+        <nav>
+
+            <div class="menu">
+                <ol class="podstrony">
+                    <li><a href="index1.html">Strona główna</a></li>
+                    <li><a href="śniadania.html">Śniadania</a></li>
+                    <li>
+                        <a href="#">Obiady</a>
+                        <ul>
+                            <li><a href="zupy.html">Zupy</a></li>
+                            <li><a href="makarony.html">Makarony</a></li>
+                            <li><a href="miesne.html">Dania mięsne</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="desery.html">Desery</a></li>
+                    <li><a href="ankieta.html">Ankieta</a></li>
+                </ol>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="tresc">
+                <section>
+                    <h2>Ankieta o zdrowym żywieniu</h2>
+
+                    <p>Przygotowałam krótką ankietę dotyczącą zdrowego odżywiania. Sprawdź, czy faktycznie dbasz o prawidłową dietę, a tym samym o swoje zdrowie i kondycję.</p>
+                    <br />
+                </section>
+
+                <section>
+                    <form id="formularz" action="path/to/php" method="get">
+
+                        <p><i><span style="color:orange">Pytanie 1.</span></i> Jakie posiłki wolisz spożywać?</p>
+                        <div class="ankieta">
+                            <label><input type="radio" name="pyt1" value="fast food" />fast food</label>
+                            <label><input type="radio" name="pyt1" value="domowe" />domowe</label>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 2.</span></i> Czy przy zakupie produktu zwracasz uwagę na jego kaloryczność?</p>
+                        <div class="ankieta">
+                            <label><input type="radio" value="tak" name="pyt2" />tak</label>
+                            <label><input type="radio" value="nie" name="pyt2" />nie</label>
+                            <label><input type="radio" value="czasami" name="pyt2" />czasami</label>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 3.</span></i> Czy ograniczasz ilość spożywanego tłuszczu?</p>
+                        <div class="ankieta">
+                            <label><input type="radio" name="pyt3" value="tak" />tak</label>
+                            <label><input type="radio" name="pyt3" value="nie" />nie</label>
+                            <label><input type="radio" name="pyt3" value="czasami" />czasami</label>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 4.</span></i> Wybierz 3 produkty, po które sięgnąłbyś automatycznie, mają je w domu:</p>
+                        <div class="ankieta">
+                            <label><input type="checkbox" name="pyt4" value="nutella" />nutella</label>
+                            <label><input type="checkbox" name="pyt4" value="banan" />banan</label>
+                            <label><input type="checkbox" name="pyt4" value="kawałek pysznego ciasta" />kawałek pysznego ciasta</label>
+                            <label><input type="checkbox" name="pyt4" value="usmaony boczek" />usmażony boczek</label>
+                            <label><input type="checkbox" name="pyt4" value="jogurt naturalny z otrębami" />jogurt naturalny z otrębami</label>
+                            <label><input type="checkbox" name="pyt4" value="orzechy" />orzechy</label>
+                            <label><input type="checkbox" name="pyt4" value="bułki z miodem" />bułka z miodem</label>
+                            <label><input type="checkbox" name="pyt4" value="chipsy" />chipsy</label>
+                            <label><input type="checkbox" name="pyt4" value="sałata warzywna np.grecka" />sałatka warzywna np. grecka</label>
+                            <label><input type="checkbox" name="pyt4" value="sok pomarańczowy" />sok pomarańczowy</label>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 6.</span></i> Czy często pijesz kawę?</p>
+                        <div class="ankieta">
+                            <label><input type="radio" name="pyt6" value="wcale" />wcale</label>
+                            <label><input type="radio" name="pyt6" value="razy dziennie" />1-2 razy dziennie</label>
+                            <label><input type="radio" name="pyt6" value="wiecej" />więcej</label>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 5.</span></i> Ile posiłków dziennie spożywasz?</p>
+                        <div class="ankieta"><input type="number" name="pyt5" min="1" step="1" /></div>
+
+                        <p><i><span style="color:orange">Pytanie 7.</span></i> Czy codziennie jesz owoce/warzywa?</p>
+                        <div class="ankieta">
+                            <select id="pyt7" name="pyt7">
+                                <option selected value="tak">tak</option>
+                                <option value="nie">nie</option>
+                                <option value="staram się tak czynić">staram się tak czynić</option>
+                            </select>
+                        </div>
+
+                        <p><i><span style="color:orange">Pytanie 8.</span></i> Jak ważna jest dla ciebie zdrowa i zbilanoswana dieta?</p>
+                        <div class="ankieta">
+                            <textarea id="pyt8" rows="5" placeholder="Tuaj wpisz swoją odpowiedź"></textarea>
+                        </div>
+
+                        <div class="ankieta">
+                            <input type="reset" value="Wyczyść" />
+                            <input type="submit" value="Prześlij" />
+                        </div>
+
+                        <div id="podziękowanie">
+                            <p>Dziękuję za wypełnienie ankiety. Mam nadzieję, że ci się podobała.</p>
+                        </div>
+                            <button class="button-pulse"><img src="img/emotka1.jpg" height="80" width="80" alt="" /></button>
+                    </form>
+                </section>
+            </div>
+        </article>
+
+        
+
+    </main>   
+
+    <footer>
+        <div id="stopka">
+            &copy; Copywright by Aleksandra Hein for the WAI and HIH project
+        </div>
+    </footer>
+
+</body>
+</html>
